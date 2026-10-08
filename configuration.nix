@@ -51,7 +51,7 @@
 
   # Optional: set default password (not recommended for production)
     users.users.balaji.initialPassword = "changeme";
-    users.users.emerg1.initialPassword = "likeeeme";
+    users.users.emerg1.initialPassword = "emergme";
 
 
 }
