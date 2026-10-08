@@ -39,6 +39,7 @@
     openssh.authorizedKeys.keys = [
     #  "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ..." # your public key
     ];
+  };
   users.users.emerg1 = {
     isNormalUser = true;
     description = "emerg1 user";
