@@ -48,10 +48,17 @@
     shell = pkgs.bashInteractive;
     
   };
-
+  users.users.bhavani = {
+    isNormalUser = true;
+    description = "bhavani user";
+    home = "/home/bhavani";
+    extraGroups = [ "wheel"  "networkmanager" ];
+    shell = pkgs.bashInteractive;
+  };
   # Optional: set default password (not recommended for production)
     users.users.balaji.initialPassword = "changeme";
     users.users.emerg1.initialPassword = "emergme";
+    users.users.bhavani.initialPassword = "bhavanime";
 
 
 }
